@@ -1,0 +1,219 @@
+/* reset css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  overflow: hidden;
+}
+
+h2,
+h1,
+span,
+p {
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* header area */
+
+header {
+  width: 325px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #202123;
+}
+
+/* icon */
+
+header .iconLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  margin-right: 10px;
+}
+
+header .iconLogo img {
+  width: 100%;
+}
+
+/* top area */
+
+header .btn_header {
+  width: 93.7%;
+  margin: 8px auto;
+  padding: 12px 10px;
+  display: flex;
+  align-items: center;
+  border: 0.9px solid #555559;
+  border-radius: 6px;
+}
+
+header .btn_header:hover {
+  background-color: #2a2b2f;
+}
+
+header .btn_header span {
+  color: #fff;
+  font-size: 0.87em;
+}
+
+header .topArea p {
+  width: 93.7%;
+  margin: 15px auto;
+  color: #555559;
+  font-size: 0.87em;
+  font-style: italic;
+}
+
+/* bottom area */
+
+header .bottomArea {
+  width: 97%;
+  margin: 0px 0px 0px auto;
+  border-top: 1px solid #555559;
+  padding-top: 5px;
+}
+
+header .btn_menu {
+  width: 95%;
+  margin: 6px 10px 6px 5px;
+  padding: 12px 10px 12px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+
+header .btn_menu:hover {
+  background-color: #2a2b2f;
+}
+
+header .btn_menu span {
+  color: #fff;
+  font-size: 0.87em;
+}
+
+/* main area */
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* toparea */
+
+main .topArea {
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+main .Title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+main .topArea h1 {
+  margin: 15px auto;
+  color: #000;
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+main .MainContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .explainBloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .explainBloc:nth-child(1),
+main .explainBloc:nth-child(2) {
+  margin-right: 10px;
+}
+
+main .explainBloc img {
+  width: 20px;
+}
+
+main .explainBloc h2 {
+  font-size: 1.1em;
+  margin: 10px auto;
+  margin-top: 13px;
+  font-weight: 400;
+}
+
+main .explainBloc p {
+  width: 100%;
+  margin: 5px auto;
+  font-size: .9em;
+  font-weight: 400;
+  text-align: center;
+  background-color: #f7f7f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* bottomarea */
+
+main .bottomArea {
+  width: 60%;
+  margin: 20px auto;
+
+}
+
+main .bottomArea .inputArea {
+  width: 100%;
+  display: flex;
+  
+  margin: 10px auto;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 15px 5px 5px;
+
+}
+
+main .bottomArea .inputArea input {
+  width: 100%;
+  border: transparent;
+  padding: 10px 10px;
+  outline: none;
+}
+
+main .bottomArea .inputArea img {
+  width: 20px;
+}
+
+main .bottomArea p {
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 12.5px;
+}
+
+main .bottomArea p a {
+  color: #7f7f7f;
+  
+}
